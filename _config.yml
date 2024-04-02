@@ -28,8 +28,8 @@ url: "https://Kingsong97.github.io"
 github:
   username: Kingsong97 # change to your github username
 
-twitter:
-  username: Kingsong97 # change to your twitter username
+instagram:
+  username: Kingsong97 # change to your instagram username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: Kingsong97@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.instagram.com/s_mini.97 # change to your twitter homepage
+    - https://www.instagram.com/s_mini.97 # change to your instagram homepage
     - https://github.com/Kingsong97 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
