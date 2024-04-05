@@ -19,7 +19,7 @@ sitemap: true
 고민을 하다가 운이 좋게 같은 수업을 듣는 학생중에 실무경험이 있는 학생 두 분이 계셨다. 뭐든 직접 만들어 보는게 좋다고 했다 그리고 스크립트를 계속 해석하고.    
 참 간단한 방법인데, 왜 안했지?! 바로 로또 추첨기를 만들어보기로 했다.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -65,32 +65,32 @@ sitemap: true
 
 ## Script 해석
 
-```
+```javascript
 document.querySelector('button').addEventListener('click', () => {});
 ```
 문서(document)에서 버튼(button)을 선택하겠어!, 그리고 이벤트가 발생을 알아챌 녀석을 추가 하겠다!(addEventListener) 그럼 언제 발생하느냐? 클릭(click) 했을때! 그리고 클릭이 되었다면? () => {} 보이듯 함수가 실행 되겠죠? <br>
 즉, 저 함수에 버튼을 클릭했을 때 로또 번호를 생성하고 표시하는 함수를 넣어야 하는거지.   
 
-```
+```javascript
 let numbers = randomNumbers();
 ```
 변수 선언과 같지? 후에 작성할 randomNumbers 함수를 가져와서 numbers 라는 변수에 저장할거야.<br>
 
-```
+```javascript
 document.getElementById('numbers').innerHTML = numbers.join(', ')
 ```
 문서(document)에서 요소의 이름이 numbers 인걸 가져오겠다(getElementById('numbers')). 그리고 이 요소를 홈페이지에서 나타낼거야(innerHTML). 근데 숫자가 연달아서 나오면 이게 11인지 1인지 헷갈리겠지? 기껏 당첨번호를 뽑았는데 말이야, 그래서 출력되어지는 numbers의 모든 요소를 하나의 문자열로 만드는데 ,와 ' '한칸 공백을 줘서 만들거야(numbers.join). 
 
-```
+```javascript
 randomNumbers = () => {}
 ```
 그럼 이제 로또 번호를 생성하는 함수를 위에 코드로 만들어줘야겠지?
 
-```
+```javascript
 let lottoNumbers = [];
 ```
 우선, 로또 번호가 6개 나오니까, 그 값을 저장해줄 빈 배열 lottoNumbers 를 만들거야!
-```
+```javascript
 while (lottoNumbers.length < 6) {
     let number = Math.floor(Math.random() * 45) + 1;
     if (lottoNumbers.indexOf(number) === -1) {
@@ -103,7 +103,7 @@ lottoNumbers의 배열의 길이가 6이 될 때 까지 라고 조건을 걸어�
 1부터 45까지의 무작위 숫자를 생성해서(Math.floor(Math.random() * 45) + 1;), 변수 number에 저장(let number = Math.floor(Math.random() * 45) + 1;).<br>
 근데, 여기서 우리가 로또는 중복된 번호가 없잖아? 그래서 if문을 사용해서 중복을 제거하는거지.<br>
 
-```
+```javascript
 return lottoNumbers.sort((a, b) => a - b);
 ```
 마지막이야 ! 위 코드를 통해, 배열에 저장된 로또 번호들을 오름차순으로 정렬하는거지 !
