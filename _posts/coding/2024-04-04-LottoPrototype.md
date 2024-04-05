@@ -3,8 +3,8 @@ layout: post
 title: 로또 번호 추첨기를 만들어보자 (part.0)
 date: 2024-04-04 23:56 +0900
 description: 로또 번호 추첨기 프로토타입
-image: 
-category: Javascript ToyPJ
+image: ../assets/img/jsb.jpg
+category: Javascript
 tags: Javascript While if rturn
 published: true
 sitemap: true
