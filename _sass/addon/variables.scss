@@ -38,10 +38,11 @@ $code-icon-width: 1.75rem !default;
     font-style: normal;
 }
 @font-face {
-    font-family: 'TTLaundryGothicB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-family: 'UtoImageTree';
     font-weight: 700;
     font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.woff') format('woff');
+    font-display: swap;
 }
-$font-family-base: 'TTLaundryGothicB', 'TTLaundryGothicB', sans-serif !default;
-$font-family-heading: 'TTLaundryGothicB', 'TTLaundryGothicB', sans-serif !default;
+$font-family-base: 'UtoImageTree', 'UtoImageTree', sans-serif !default;
+$font-family-heading: 'UtoImageTree', 'UtoImageTree', sans-serif !default;
