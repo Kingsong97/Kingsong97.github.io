@@ -37,39 +37,6 @@ $code-icon-width: 1.75rem !default;
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'UtoImageTree';
-    font-weight: 300;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeLight.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeLight.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeLight.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeLight.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeLight.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'UtoImageTree';
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeRegular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeRegular.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeRegular.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeRegular.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeRegular.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'UtoImageTree';
-    font-weight: 700;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/utoImagetree/UtoImageTreeBold.ttf') format("truetype");
-    font-display: swap;
-}
 
-$font-family-base: 'UtoImageTree', 'Microsoft Yahei', sans-serif !default;
-$font-family-heading: 'UtoImageTree', 'Microsoft Yahei', sans-serif !default;
+$font-family-base: 'NanumSquareRound', 'Microsoft Yahei', sans-serif !default;
+$font-family-heading: 'NanumSquareRound', 'Microsoft Yahei', sans-serif !default;
