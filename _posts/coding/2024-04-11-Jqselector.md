@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JQuery 선택자(selector)
-date: 2024-04-11 18:55 +0900
+date: 2024-04-11 19:45 +0900
 description: 
 image: https://github.com/Kingsong97/Kingsong97.github.io/assets/161429740/6b14d54f-28c3-45e6-9b16-1e70d3abf82d
 category: JQuery
