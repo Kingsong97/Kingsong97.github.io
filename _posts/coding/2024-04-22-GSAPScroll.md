@@ -3,7 +3,7 @@ layout: post
 title: GSAP) GSAP_ScrollAnime
 date: 2024-04-22 12:00 +0900
 description: 
-image: 
+image: ../assets/img/jsb.jpg
 category: GSAP
 tags: GSAP Javassciprt Animetion Effect
 published: true
