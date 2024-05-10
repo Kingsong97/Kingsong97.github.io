@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python) Python 기초
-date: 2024-05-06 12:59 +0900
+date: 2024-05-08 12:59 +0900
 description: 
 image: https://github.com/Kingsong97/Kingsong97.github.io/assets/161429740/db65de14-dc59-4576-8cec-82acc61d8013
 category: Python
