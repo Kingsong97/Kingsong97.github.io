@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React) 왜 리액트를 써야하는가?
-date: 2024-05-15 09:59 +0900
+date: 2024-05-16 09:59 +0900
 description: 
 image: 
 category: React
