@@ -3,7 +3,7 @@ layout: post
 title: javascript) 싱글 스레드
 date: 2024-05-17 09:59 +0900
 description: 
-image: 
+image: ../assets/img/jsb.jpg
 category: javascript
 tags: javascript Single_thread
 published: true

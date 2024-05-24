@@ -3,7 +3,7 @@ layout: post
 title: TypeScript) 일반함수? 화살표함수?
 date: 2024-05-20 09:59 +0900
 description: 
-image: 
+image: ../assets/img/jsb.jpg
 category: javascript
 tags: javascript 
 published: true

@@ -3,7 +3,7 @@ layout: post
 title: TypeScript) 타입스크립트
 date: 2024-05-18 09:59 +0900
 description: 
-image: 
+image: ../assets/img/jsb.jpg
 category: javascript
 tags: javascript TypeScript
 published: true
