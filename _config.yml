@@ -14,12 +14,14 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kingsong97 # the main title
+title: KingSong Blog # the main title
 
-tagline: Developer seongmin
+tagline: Developer KingSong
 
 description: >- # used by seo meta and the atom feed
-  hi!😊
+  A personal blog documenting my journey in tech, life, and learning.
+  기술, 삶, 그리고 학습에 대한 개인적인 여정을 기록한 블로그.
+  
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,8 +36,8 @@ instagram:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Kingsong97
-  email: Kingsong97@gmail.com # change to your email address
+  name: KingSong
+  email: kingsongsm97@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://www.instagram.com/s_mini.97 # change to your instagram homepage
